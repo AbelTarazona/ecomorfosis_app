@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="3dp">
+
+    <TextView
+        android:id="@+id/tvPlayer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/background_item"
+        android:fontFamily="@font/ilinotte_regular"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="5dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        tools:text="Abel Tarazona" />
+
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvPoints"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/background_item"
+        android:fontFamily="@font/ilinotte_regular"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="5dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        tools:text="2" />
+
+
+</LinearLayout>

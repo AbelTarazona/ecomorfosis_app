@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFE301</color>
+    <color name="colorPrimaryDark">#c7b100</color>
+    <color name="colorAccent">#ffff55</color>
+
+    <color name="background_card_question">#262748</color>
+    <color name="turquise">#06A198</color>
+    <color name="orange_main">#ffa901</color>
+
+    <!--    Modules -->
+    <color name="main_materiales">#11D7AB</color>
+    <color name="main_game">#FF4A8E</color>
+    <color name="main_guia">#FF8900</color>
+
+    <color name="blux">#0062E2</color>
+    <color name="gray">#f0f0f0</color>
+</resources>

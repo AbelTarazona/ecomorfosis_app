@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ecomorfosis</string>
+    <string name="aprende_jugando_y_reciclando">Aprende jugando y <font color="#ffa901">reciclando</font></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="acepto_los">Acepto los</string>
+    <string name="t_rminos_y_condiciones">términos y condiciones</string>
+    <string name="video">Video</string>
+    <string name="imagen">Imagen</string>
+    <string name="detalle">Detalle</string>
+</resources>

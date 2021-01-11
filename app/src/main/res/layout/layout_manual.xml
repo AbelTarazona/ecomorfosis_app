@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomSheetContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_sheet_background">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/linotte_bold"
+        android:text="¿Cómo jugar?"
+        android:textAlignment="center"
+        android:textColor="@color/background_card_question"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ilinotte_regular"
+            android:textColor="@color/background_card_question"
+            android:layout_marginBottom="10dp"
+            android:text="1. El primer jugador en clasificar todos sus residuos o el que logre obtener 5 estrellas gana."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ilinotte_regular"
+            android:textColor="@color/background_card_question"
+            android:layout_marginBottom="10dp"
+            android:text="2. La tirada del dado numérico determina el número de espacios que los jugadores avanzan."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ilinotte_regular"
+            android:textColor="@color/background_card_question"
+            android:layout_marginBottom="10dp"
+            android:text="3. Cada jugador elige un personaje y lo coloca en la casilla de inicio."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ilinotte_regular"
+            android:textColor="@color/background_card_question"
+            android:layout_marginBottom="10dp"
+            android:text="4. Se reparten todas las fichas de residuos en partes iguales."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ilinotte_regular"
+            android:textColor="@color/background_card_question"
+            android:layout_marginBottom="10dp"
+            android:text="5. Todos los jugadores tiran el dado y el jugador con mayor puntuación comienza el juego, el orden de turnos se desarrollará en sentido horario"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ilinotte_regular"
+            android:textColor="@color/background_card_question"
+            android:layout_marginBottom="10dp"
+            android:text="6. Se colocan los contenedores de clasificación a un lado del tablero."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ilinotte_regular"
+            android:textColor="@color/background_card_question"
+            android:layout_marginBottom="10dp"
+            android:text="7. Los jugadores deberán realizar la acción que indique cada casilla del tablero."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ilinotte_regular"
+            android:textColor="@color/background_card_question"
+            android:text="8. Se utilizarán 3 dados: un dado numérico y 2 dados de categorías (el dado erde para el nivel 1 - principiante y el dado azul para el nivel 2 - complejo)"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
